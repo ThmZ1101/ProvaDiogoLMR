@@ -1,0 +1,81 @@
+
+nav {
+    background-size: cover;
+    margin: 0;
+    background: rgb(255,255,255);
+background: linear-gradient(87deg, rgba(255,255,255,1) 0%, rgba(173,202,255,1) 29%, rgba(51,58,255,1) 61%, rgba(26,1,33,1) 100%);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+}
+
+nav h1 {
+    margin-right: 1170px;
+    margin-top: 10px;
+}
+
+nav li {
+    margin-right: 3rem;
+    display: inline-block;
+
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(25, 13, 129);
+    color: black;
+}
+.i1{
+    width: 100px;
+    margin-left: 50px;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(85, 66, 194);
+    background: linear-gradient(87deg, rgba(85, 66, 194, 1) 0%, rgba(116, 159, 237, 1) 37%, rgba(100, 104, 186, 1) 65%, rgba(85, 66, 194, 1) 100%);
+}
+.d1{
+    border-radius: 3px;
+    padding: 20px;
+    width: 15%;
+    margin-left: 42.5%;
+    background-color: white;
+    margin-top: 15%;
+}
+select {
+    border: 1 solid #ccc;
+    border-radius: 3px
+}
+
+input {
+    border: 1 solid #ccc;
+    border-radius: 3px
+}
+.Entrar{
+    background: rgb(28, 163, 15);
+    border: 0px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
